@@ -1,131 +1,97 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Historia de Mar Vermelho</title>
-        <style>
-            #pag_cima{
-                display: flex;
-                width: 100%;
-                height: 100px;
-                background-color: red;
-                align-items: center;
-                color: rgb(255, 255, 255);
-                margin: 5px;
-            }
-            #dentro_cima{
-                display: flex;
-                width: 53%;
-                height: 60px;
-                background-color: red;
-                align-items: center;
-                margin: 90px;
-                justify-content: space-between;
-            }
-            #pag_menu{
-                height: 15%;
-                width: 15%;
-                background-color: green;
-                text-align: center;
-                float:left;
-                align-items: center;
-                margin: 5px;
-                padding: 5px;
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            }
-            #pag_meio{
-                height: 50%;
-                width: 65%;
-                float: left;
-                text-align: center;
-                margin: 5px;
-                padding: 5px;
-            }
-            #prefeitos{
-                height: 100%;
-                width: 150px;
-                background-color: blue;
-                float: right;
-                text-align: center;
-            }
-            #traco{
-                text-decoration: underline;
-                color: rgb(255, 255, 255);
-            }
-            #div{
-                max-width: 320px;
-                max-height: 800px;
-                margin: auto;
-            }
-            #traco2{
-                text-decoration: underline;
-            }
-            #pag_menu a{
-                text-decoration: none;
-                display: block;
-                padding: 10px 14px;
-                color: yellow;
-            }
-            #pag_menu a:hover{
-                transition: 0,5s;
-                background-color: rgba(11, 179, 6, 0.829);
-                color:rgb(255, 0, 0);
-            }
-        </style>
-    </head>
-    <body>
-        <div id="pag_cima">
-            <div id="dentro_cima">
-                <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" width="60" height="60">
-                <h1 id="traco">Afrânio José Vieira</h1>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Afrânio José Vieira</title>
+  </head>
+  <body>
+      <!--Pagina Fixa, no caso a Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed col-12 m-auto" style="z-index: 999; ">
+          <img src="https://user-images.githubusercontent.com/98188181/152560019-7bcf0a8d-c130-493c-888f-2afe2c1331e1.png" height="30px" width="30px">
+          <h1 style="color: white;" >Historia</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end m-auto " id="conteudoNavbarSuportado">
+            <div class="nav-item my-2 my-lg-0 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projHistoria/">Voltar</a>
             </div>
-        </div>
-        <div id="pag_menu">
-            <h3 id="traco">Prefeitos e Historia</h3>
-            <p><a href="https://luapablosda.github.io/projHistoria/">Voltar</a><p></p>
-            <p><a href="https://luapablosda.github.io/projPref711/">Ernesto</a></p>
-            <p><a href="https://luapablosda.github.io/projPref712/">Jerônimo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref713/">Geraldo</a></p>
-            <p><a href="https://luapablosda.github.io/proPref714/">Abel</a></p>
-            <p><a href="https://luapablosda.github.io/projPref715/">Luiz Clarindo</a></p>
-            <p><a href="https://luapablosda.github.io/projPref716/">João Gomes</a></p>
-            <p><a href="https://luapablosda.github.io/projPref718/">Hermann Elson</a></p>
-        </div>
-        <div id="pag_meio">
-            <img src="https://user-images.githubusercontent.com/98188181/159741496-215d3e2b-3dc9-436b-baf0-06cf3f1a66b2.jpg" width="250" height="250">
-            <h2>Sua Biografia</h2>
-            <p>Nasceu em 10 de setembro de 1953, na cidade de Viçosa (AL), filho de José Bernado Vieira e 
-                Maria Madalena Nascimento Vieira. Estudou no Grupo Escolar 13 de Outubro, passando depois para 
-                o Colégio Normal Joaquim Diegues. Depois, passou a residir na casa de uma tia em Maceió. 
-                Estudou na Escola Técnica Federal de Alagoas, fazendo o primeiro é o segundo ano do 2° Grau para logo 
-                abandonar os estudos e volta à casa paterna. Em 1970, arranja seu primeiro emprego, no Jornal 
-                Imparcial de Viçosa, lá trabalhando até 1971. Em 1972, retorna a Maceió para trabalhar por um 
-                ano na rede de farmácias Droganorte.<br>
-                No segundo semestre de 1974, mudou-se com a familia para Mar Vermelho e, um ano depois, já era funcionário 
-                da Junta Militar Municipal. Em 1976 é admitido pela empresa Brasileira de Correios e Telégrafos com 
-                a Vieira, com quem teve três filhos(Wagner, Alex e Ana Paula). Ingressa na política em 1982 com 
-                vereador, para um mandato de seis anos, Ao se desligar do emprego da agente postal, dedica-se 
-                à vida política. É eleito, em 88, vice-prefeito. Com a morte do prefeito João Deó, assume a prefeitura 
-                por três anos. Nesse período, torna-se diretor da Escola Cenecista Orlando Lins. Na década de 80, 
-                estudando à distância, fez os cursos de Secretariado Escolar, pela Secretaria Estadual de Educação 
-                do Estado, em 1986, e de Administração Escolar, pela Universidade Federal da Paraíbba, ministrando 
-                no SENAC-AL(Serviço Nacional do Comércio).
-             <h3>*OBRAS</h3>
-             1. Ampliação da Praça Padre Cicero.<br>
-             2. Ampliação da rede de abastecimento de água na zona urbana.<br>
-             3. Construção de unidade habitacionais através de três mutirões(conjunto Residenciais Afrânio 
-             José Vieira, Margarida Procópio e Maria Torres Lins)<br>
-             4. Construção da Escola Municipal Maria Odete, na Vila Almeida.<br>
-             5. Construção da igreja do cemitério.<br>
-             6. Construção do Ginásio de Esportes Rosa Maria Maia Procópio.<br>
-             7. Construção de um terminal rodoviário com três plataformas.<br>
-             8. Construção do pórtico da entrada da cidade.<br>
-             9. Construçãode 1 lavandeira na Rua Major Canuto.<br>
-             10. Construção de calçamentos e reforma de 2 pontes de cimento, uma no Sítio Riacho Seco e outra no Cajaiba.<br>
-             11. Aquisição de 1 caminhão, 2 ambulância, 1 trator e 1 antena parabólica para o município.
-             12. Reconstrução de 40 casas na cidade.<br>
-             13. Arrendamento de terras acompanhado de implementos agrícolas.<br>
-             14. Construção do prédio onde funciona a Creche Maria Odete.
-            </p>
-        </div>
-    </body>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref711/">Ernesto Neto</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref712/">Jerônimo</a>
+            </div>
+            <div class="nav-item my-2 my-lg-0">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref713/">Geraldo</a>
+            </div>
+            <div class="nav-item my-2 ">
+              <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref714/">Abel</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref715/">João Gomes</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref716/">Luiz Clarindo</a>
+            </div>
+            <div class="nav-item my-2 ">
+                <a class="navbar-brand nav-link" href="https://luapablosda.github.io/projPref718/">Hermann Elson</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br><br><br>
+      <br>
+      <!-- Até aqui a Pagina Fixa-->
+    <h1 class="text-center">Afrânio José Vieira</h1>
+    <div class="text-center">
+        <img src="https://user-images.githubusercontent.com/98188181/159741496-215d3e2b-3dc9-436b-baf0-06cf3f1a66b2.jpg" class="rounded" width="250px" height="300px" >
+    </div>
+    <h6 class="text-center">E sua Biografia</h6>
+    <br>
+    <p class="text-center col-9 m-auto">Nasceu em 10 de setembro de 1953, na cidade de Viçosa (AL), filho de José Bernado Vieira e 
+        Maria Madalena Nascimento Vieira. Estudou no Grupo Escolar 13 de Outubro, passando depois para 
+        o Colégio Normal Joaquim Diegues. Depois, passou a residir na casa de uma tia em Maceió. 
+        Estudou na Escola Técnica Federal de Alagoas, fazendo o primeiro é o segundo ano do 2° Grau para logo 
+        abandonar os estudos e volta à casa paterna. Em 1970, arranja seu primeiro emprego, no Jornal 
+        Imparcial de Viçosa, lá trabalhando até 1971. Em 1972, retorna a Maceió para trabalhar por um 
+        ano na rede de farmácias Droganorte.<br>
+        No segundo semestre de 1974, mudou-se com a familia para Mar Vermelho e, um ano depois, já era funcionário 
+        da Junta Militar Municipal. Em 1976 é admitido pela empresa Brasileira de Correios e Telégrafos com 
+        a Vieira, com quem teve três filhos(Wagner, Alex e Ana Paula). Ingressa na política em 1982 com 
+        vereador, para um mandato de seis anos, Ao se desligar do emprego da agente postal, dedica-se 
+        à vida política. É eleito, em 88, vice-prefeito. Com a morte do prefeito João Deó, assume a prefeitura 
+        por três anos. Nesse período, torna-se diretor da Escola Cenecista Orlando Lins. Na década de 80, 
+        estudando à distância, fez os cursos de Secretariado Escolar, pela Secretaria Estadual de Educação 
+        do Estado, em 1986, e de Administração Escolar, pela Universidade Federal da Paraíbba, ministrando 
+        no SENAC-AL(Serviço Nacional do Comércio).</p>
+    <br>
+        <h3 class="text-center col-9 m-auto">*OBRAS:</h3>
+        <p class="test-center col-9 m-auto">1. Ampliação da Praça Padre Cicero.<br>
+            2. Ampliação da rede de abastecimento de água na zona urbana.<br>
+            3. Construção de unidade habitacionais através de três mutirões(conjunto Residenciais Afrânio 
+            José Vieira, Margarida Procópio e Maria Torres Lins).<br>
+            4. Construção da Escola Municipal Maria Odete, na Vila Almeida.<br>
+            5. Construção da igreja do cemitério.<br>
+            6. Construção do Ginásio de Esportes Rosa Maria Maia Procópio.<br>
+            7. Construção de um terminal rodoviário com três plataformas.<br>
+            8. Construção do pórtico da entrada da cidade.<br>
+            9. Construçãode 1 lavandeira na Rua Major Canuto.<br>
+            10. Construção de calçamentos e reforma de 2 pontes de cimento, uma no 
+            Sítio Riacho Seco e outra no Cajaiba.<br>
+    <hr>
+    <br><br><br>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
